@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+ruby '2.2.1'
 gem 'rails', '4.2.4'
 gem 'sqlite3', group: :development
 gem 'sass-rails', '~> 5.0'
@@ -25,3 +25,6 @@ group :development do
 end
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem 'carrierwave'
+gem "fog"
+gem "figaro", "~> 0.7.0"
